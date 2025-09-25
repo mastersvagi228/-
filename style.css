@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    background-color: peru;
+}
+
+h1 {
+    text-align: center;
+    color: #efefaf;
+    font-size: 600%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    font-size: 50px;
+    color: #efefaf;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #efefaf;
+    border: 12px solid #efefaf;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+    font-size: 30px;
+}
+
+li {
+    text-align: center;
+    padding: 112px;
+}
+
+footer {
+    background-color: #efefaf;
+    padding: 5px
+}
+
+footer p {
+    background-color: peru;
+    font-size: 20px;
+    color: #f7f798;
+}
+
+.ordersbutt {
+    text-decoration: none;
+    color: #efefaf;
+    border: 7px solid #efefaf;
+    border-radius: 10px;
+    padding: 28px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 1px;
+    font-size: 50px;
+}
+
+.li-style {
+     display: inline-table;
+     padding: 20px;
+}
+
+.ddd {
+    color: peru;
+    font-size: 20px
+}
+
+.piza{
+    border-bottom: 5px solid #efefaf;
+    font-size: 110px;
+    padding-bottom: 20px;
+}
+
+.ingridients {
+    font-size: 25px;
+    text-align: left;
+    padding-left: 26px;
+}
+
+.zirobas {
+    font-size: 55px;
+}
