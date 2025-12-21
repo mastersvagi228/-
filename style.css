@@ -1,88 +1,175 @@
 body {
     font-family: sans-serif;
-    background-color: peru;
+    background-color: #FFD800;
 }
 
 h1 {
+    color: #FFF9D6;
+    font-size: 60px;
     text-align: center;
-    color: #efefaf;
-    font-size: 600%;
+}
+.logo {
+    width: 133px;
+    height: 133px;
 }
 
-img {
-    height: 960px;
-    width: 1280px;
+.logoP {
+    font-size: 48px;
+    color: #FFF9D6;
+    margin-left: 30px;
 }
 
-p {
-    font-size: 50px;
-    color: #efefaf;
+header {
+    display: flex;
+}
+
+.newpizza {
+    width: 415px;
+    height: 276px;
+    border: 7px solid #FFF9D6;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+main {
     text-align: center;
+    background-color: #FFE864;
+    padding: 30px;
+}
+
+.order {
+    background-color: #FFD800;
+    text-decoration: none;
+    border: 7px solid #FFF9D6;
+    padding: 10px;
+    border-radius: 10px;
+    color: #FFF9D6;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 a {
     text-decoration: none;
-    color: #efefaf;
-    border: 12px solid #efefaf;
-    border-radius: 10px;
-    padding: 30px;
-    margin: 10px;
-    font-size: 30px;
+    color: #FFF9D6;
 }
 
-li {
+.ordermenu {
+    display:flex;
+    justify-content: space-around;
+}
+
+.pizzasnack{
+    width: 380px;
+    height: 253px;
+    margin: 20px;
+    border: 7px solid #FFF9D6;
+    border-radius: 10px;
+}
+
+.kola {
+    width: 362px;
+    height: 253px;
+    margin: 20px;
+    border: 7px solid #FFF9D6;
+    border-radius: 10px;
+}
+
+.cocacola {
+    width: 300px;
+    height: 210px;
+}
+
+.pepsi {
+    width: 350px;
+    height: 210px;
+}
+
+.fanta {
+    width: 350px;
+    height: 210px;
+}
+
+.drinksmenu {
     text-align: center;
-    padding: 112px;
+    display: flex;
+    justify-content: space-between;
 }
 
-footer {
-    background-color: #efefaf;
-    padding: 5px
-}
-
-footer p {
-    background-color: peru;
-    font-size: 20px;
-    color: #f7f798;
-    text-align: left;
-}
-
-.ordersbutt {
-    text-decoration: none;
-    color: #efefaf;
-    border: 7px solid #efefaf;
+.drinksdiv {
+    border: 7px solid #FFF9D6;
     border-radius: 10px;
-    padding: 28px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    margin: 1px;
-    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.li-style {
-     display: inline-table;
-     padding: 20px;
+.ML {
+    text-decoration: none;
+    color: #FFF9D6;
+    font-size: 36.5px;
+    border: 5px solid #FFF9D6;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #FFD800;
 }
 
-.ddd {
-    color: peru;
-    font-size: 20px
+.MLdiv {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
 }
 
-.piza{
-    border-bottom: 5px solid #efefaf;
-    font-size: 110px;
-    padding-bottom: 20px;
+.snacksmenu {
+    border: 7px solid #FFF9D6;
+    background-color: #FFF9D6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.ingridients {
-    font-size: 25px;
-    text-align: left;
-    padding-left: 26px;
+.fri {
+    width: 350px;
+    height: 300px;
 }
 
-.zirobas {
-    font-size: 55px;
+.nugets {
+    width: 300px;
+    height: 300px;
+}
+
+.balls {
+    width: 350px;
+    height: 300px;
+}
+
+.pizzadiv {
+    border: 7px solid #FFF9D6;
+    background-color: #FFF9D6;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+
+}
+
+.pizzamenu {
+    text-align: center;
+}
+
+.pr {
+    text-decoration: none;
+    color: #FFF9D6;
+    font-size: 36.5px;
+    border: 5px solid #FFF9D6;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #FFD800;
+    margin-bottom: 100px;
+}
+
+.PID {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #FFD800;
+    margin-left: 70px;
 }
