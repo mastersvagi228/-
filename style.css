@@ -92,7 +92,7 @@ a {
 .drinksmenu {
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .drinksdiv {
