@@ -99,8 +99,19 @@ a:visited {
 }
 
 .pizzasnack{
+    transition: 0.17s;
+    position: relative;
     width: 380px;
     height: 253px;
+    margin: 20px;
+    border: 7px solid #FFF9D6;
+    border-radius: 10px;
+}
+
+.pizzasnack:hover{
+    position: relative;
+    width: 570px;
+    height: 379.5px;
     margin: 20px;
     border: 7px solid #FFF9D6;
     border-radius: 10px;
@@ -109,6 +120,14 @@ a:visited {
 .kola {
     width: 362px;
     height: 253px;
+    margin: 20px;
+    border: 7px solid #FFF9D6;
+    border-radius: 10px;
+}
+
+.kola:hover {
+    width: 543px;
+    height: 379.5px;
     margin: 20px;
     border: 7px solid #FFF9D6;
     border-radius: 10px;
