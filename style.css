@@ -118,6 +118,7 @@ a:visited {
 }
 
 .kola {
+    transition: 0.15s;
     width: 362px;
     height: 253px;
     margin: 20px;
@@ -126,6 +127,8 @@ a:visited {
 }
 
 .kola:hover {
+    position: relative;
+    right: 100px;
     width: 543px;
     height: 379.5px;
     margin: 20px;
