@@ -230,8 +230,64 @@ a:visited {
 }
 
 .PID {
-    margin-top: 30px;
+    margin-top: 0px;
     font-size: 20px;
     color: #FFD800;
     margin-left: 70px;
+}
+
+form {
+    text-align: center;
+}
+
+.dani {
+    font-size: 30px;
+    color: #FFF9D6;
+    text-align: center;
+}
+
+.PDF {
+    text-decoration: none;
+    text-align: center;
+    color: #FFF9D6;
+    font-size: 36.5px;
+    border: 5px solid #FFF9D6;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #FFD800;
+    margin-left: 32.5%;
+    margin-right: 32.5%;
+}
+
+.NNNN {
+    transition: 0.2s;
+    text-decoration: none;
+    color: #FFF9D6;
+    font-size: 36.5px;
+    border: 2px solid #FFF9D6;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #FFD800;
+    margin-bottom: 100px;
+}
+
+.NNNN:hover {
+    text-decoration: none;
+    color: #FFF9D6;
+    font-size: 54.75px;
+    border: 1px solid #FFF9D6;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #FFD800;
+    margin-bottom: 100px;
+}
+
+li {
+    text-align: left;
+}
+
+.potap {
+    border: 7px solid #FFF9D6;
+    border-radius: 10px;
+    background-color: #FFF9D6;
 }
