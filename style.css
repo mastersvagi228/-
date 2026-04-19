@@ -9,7 +9,7 @@ h1 {
     text-align: center;
 }
 .logo {
-    width: 169px;
+    width: 133px;
     height: 133px;
 }
 
@@ -172,6 +172,17 @@ a:visited {
     border-radius: 10px;
     padding: 5px;
     background-color: #FFD800;
+    transition: 0.2s;
+}
+
+.ML:hover {
+    text-decoration: none;
+    color: #FFF9D6;
+    font-size: 45px;
+    border: 7.5px solid #FFF9D6;
+    border-radius: 15px;
+    padding: 7.5px;
+    background-color: #FFD800;
 }
 
 .MLdiv {
@@ -242,6 +253,10 @@ form {
 
 .dani {
     font-size: 30px;
+    background-color: #FFD800;
+    border-radius: 5px;
+    margin-left: 33%;
+    margin-right: 33%;
     color: #FFF9D6;
     text-align: center;
 }
@@ -255,8 +270,7 @@ form {
     border-radius: 10px;
     padding: 5px;
     background-color: #FFD800;
-    margin-left: 32.5%;
-    margin-right: 32.5%;
+    margin-left: 19%;
 }
 
 .NNNN {
@@ -290,4 +304,27 @@ li {
     border: 7px solid #FFF9D6;
     border-radius: 10px;
     background-color: #FFF9D6;
+}
+
+.rororor {
+    display: block;
+    margin: 0 auto;
+    width: fit-content; /* щоб підлаштовувався під картинку */
+    border: 7px solid #FFF9D6;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.rororor img {
+    display: block;
+}
+
+.MINUSTHREE {
+    border: 7px solid #FFF9D6;
+    border-radius: 10px;
+    background-color: #FFF9D6;
+    width: 650px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px;
 }
